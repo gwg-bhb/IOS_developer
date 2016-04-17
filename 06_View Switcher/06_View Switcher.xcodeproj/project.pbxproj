@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF0EEB01CC3A4610064F319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0EEAF1CC3A4610064F319 /* main.m */; };
+		CEF0EEB31CC3A4610064F319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0EEB21CC3A4610064F319 /* AppDelegate.m */; };
+		CEF0EEB61CC3A4610064F319 /* SwitchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0EEB51CC3A4610064F319 /* SwitchingViewController.m */; };
+		CEF0EEB91CC3A4610064F319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0EEB71CC3A4610064F319 /* Main.storyboard */; };
+		CEF0EEBB1CC3A4610064F319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF0EEBA1CC3A4610064F319 /* Assets.xcassets */; };
+		CEF0EEBE1CC3A4610064F319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0EEBC1CC3A4610064F319 /* LaunchScreen.storyboard */; };
+		CEF0EEC71CC3D5D70064F319 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0EEC61CC3D5D70064F319 /* BlueViewController.m */; };
+		CEF0EECA1CC3D5E80064F319 /* YellosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF0EEC91CC3D5E80064F319 /* YellosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEF0EEAB1CC3A4610064F319 /* 06_View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06_View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF0EEAF1CC3A4610064F319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEF0EEB11CC3A4610064F319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEF0EEB21CC3A4610064F319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEF0EEB41CC3A4610064F319 /* SwitchingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchingViewController.h; sourceTree = "<group>"; };
+		CEF0EEB51CC3A4610064F319 /* SwitchingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchingViewController.m; sourceTree = "<group>"; };
+		CEF0EEB81CC3A4610064F319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF0EEBA1CC3A4610064F319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF0EEBD1CC3A4610064F319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF0EEBF1CC3A4610064F319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF0EEC51CC3D5D70064F319 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		CEF0EEC61CC3D5D70064F319 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		CEF0EEC81CC3D5E80064F319 /* YellosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellosViewController.h; sourceTree = "<group>"; };
+		CEF0EEC91CC3D5E80064F319 /* YellosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF0EEA81CC3A4610064F319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF0EEA21CC3A4610064F319 = {
+			isa = PBXGroup;
+			children = (
+				CEF0EEAD1CC3A4610064F319 /* 06_View Switcher */,
+				CEF0EEAC1CC3A4610064F319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF0EEAC1CC3A4610064F319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0EEAB1CC3A4610064F319 /* 06_View Switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF0EEAD1CC3A4610064F319 /* 06_View Switcher */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0EEB11CC3A4610064F319 /* AppDelegate.h */,
+				CEF0EEB21CC3A4610064F319 /* AppDelegate.m */,
+				CEF0EEB41CC3A4610064F319 /* SwitchingViewController.h */,
+				CEF0EEB51CC3A4610064F319 /* SwitchingViewController.m */,
+				CEF0EEB71CC3A4610064F319 /* Main.storyboard */,
+				CEF0EEBA1CC3A4610064F319 /* Assets.xcassets */,
+				CEF0EEBC1CC3A4610064F319 /* LaunchScreen.storyboard */,
+				CEF0EEBF1CC3A4610064F319 /* Info.plist */,
+				CEF0EEAE1CC3A4610064F319 /* Supporting Files */,
+				CEF0EEC51CC3D5D70064F319 /* BlueViewController.h */,
+				CEF0EEC61CC3D5D70064F319 /* BlueViewController.m */,
+				CEF0EEC81CC3D5E80064F319 /* YellosViewController.h */,
+				CEF0EEC91CC3D5E80064F319 /* YellosViewController.m */,
+			);
+			path = "06_View Switcher";
+			sourceTree = "<group>";
+		};
+		CEF0EEAE1CC3A4610064F319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF0EEAF1CC3A4610064F319 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF0EEAA1CC3A4610064F319 /* 06_View Switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF0EEC21CC3A4610064F319 /* Build configuration list for PBXNativeTarget "06_View Switcher" */;
+			buildPhases = (
+				CEF0EEA71CC3A4610064F319 /* Sources */,
+				CEF0EEA81CC3A4610064F319 /* Frameworks */,
+				CEF0EEA91CC3A4610064F319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06_View Switcher";
+			productName = "06_View Switcher";
+			productReference = CEF0EEAB1CC3A4610064F319 /* 06_View Switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF0EEA31CC3A4610064F319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "who am I";
+				TargetAttributes = {
+					CEF0EEAA1CC3A4610064F319 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = LQ226VA3DQ;
+					};
+				};
+			};
+			buildConfigurationList = CEF0EEA61CC3A4610064F319 /* Build configuration list for PBXProject "06_View Switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF0EEA21CC3A4610064F319;
+			productRefGroup = CEF0EEAC1CC3A4610064F319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF0EEAA1CC3A4610064F319 /* 06_View Switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF0EEA91CC3A4610064F319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0EEBE1CC3A4610064F319 /* LaunchScreen.storyboard in Resources */,
+				CEF0EEBB1CC3A4610064F319 /* Assets.xcassets in Resources */,
+				CEF0EEB91CC3A4610064F319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF0EEA71CC3A4610064F319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0EEB61CC3A4610064F319 /* SwitchingViewController.m in Sources */,
+				CEF0EEB31CC3A4610064F319 /* AppDelegate.m in Sources */,
+				CEF0EEC71CC3D5D70064F319 /* BlueViewController.m in Sources */,
+				CEF0EEB01CC3A4610064F319 /* main.m in Sources */,
+				CEF0EECA1CC3D5E80064F319 /* YellosViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEF0EEB71CC3A4610064F319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF0EEB81CC3A4610064F319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF0EEBC1CC3A4610064F319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF0EEBD1CC3A4610064F319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF0EEC01CC3A4610064F319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF0EEC11CC3A4610064F319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF0EEC31CC3A4610064F319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06_View Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.-6-View-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEF0EEC41CC3A4610064F319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "06_View Switcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.-6-View-Switcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF0EEA61CC3A4610064F319 /* Build configuration list for PBXProject "06_View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0EEC01CC3A4610064F319 /* Debug */,
+				CEF0EEC11CC3A4610064F319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF0EEC21CC3A4610064F319 /* Build configuration list for PBXNativeTarget "06_View Switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF0EEC31CC3A4610064F319 /* Debug */,
+				CEF0EEC41CC3A4610064F319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF0EEA31CC3A4610064F319 /* Project object */;
+}
