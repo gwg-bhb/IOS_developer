@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3E9BD51CCD06F800288315 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE3E9BD41CCD06F800288315 /* statedictionary.plist */; };
 		CE59286B1CC6EBA400F9FD1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59286A1CC6EBA400F9FD1B /* main.m */; };
 		CE59286E1CC6EBA400F9FD1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59286D1CC6EBA400F9FD1B /* AppDelegate.m */; };
 		CE5928711CC6EBA400F9FD1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5928701CC6EBA400F9FD1B /* ViewController.m */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3E9BD41CCD06F800288315 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = ../statedictionary.plist; sourceTree = "<group>"; };
 		CE5928661CC6EBA400F9FD1B /* 07_Pickes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_Pickes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE59286A1CC6EBA400F9FD1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE59286C1CC6EBA400F9FD1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		CE5928681CC6EBA400F9FD1B /* 07_Pickes */ = {
 			isa = PBXGroup;
 			children = (
+				CE3E9BD41CCD06F800288315 /* statedictionary.plist */,
 				CE59286C1CC6EBA400F9FD1B /* AppDelegate.h */,
 				CE59286D1CC6EBA400F9FD1B /* AppDelegate.m */,
 				CE59286F1CC6EBA400F9FD1B /* ViewController.h */,
@@ -164,6 +167,7 @@
 			files = (
 				CE5928791CC6EBA400F9FD1B /* LaunchScreen.storyboard in Resources */,
 				CE5928761CC6EBA400F9FD1B /* Assets.xcassets in Resources */,
+				CE3E9BD51CCD06F800288315 /* statedictionary.plist in Resources */,
 				CE5928741CC6EBA400F9FD1B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +337,7 @@
 				CE59287F1CC6EBA400F9FD1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
