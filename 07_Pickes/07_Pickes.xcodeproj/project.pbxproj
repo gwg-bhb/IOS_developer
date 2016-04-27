@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE272EB31CD1053400F34460 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE272EB11CD1053400F34460 /* crunch.wav */; };
+		CE272EB41CD1053400F34460 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = CE272EB21CD1053400F34460 /* win.wav */; };
 		CE3E9BD51CCD06F800288315 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE3E9BD41CCD06F800288315 /* statedictionary.plist */; };
 		CE59286B1CC6EBA400F9FD1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59286A1CC6EBA400F9FD1B /* main.m */; };
 		CE59286E1CC6EBA400F9FD1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59286D1CC6EBA400F9FD1B /* AppDelegate.m */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE272EB11CD1053400F34460 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		CE272EB21CD1053400F34460 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		CE3E9BD41CCD06F800288315 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = ../statedictionary.plist; sourceTree = "<group>"; };
 		CE5928661CC6EBA400F9FD1B /* 07_Pickes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07_Pickes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE59286A1CC6EBA400F9FD1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		CE5928681CC6EBA400F9FD1B /* 07_Pickes */ = {
 			isa = PBXGroup;
 			children = (
+				CE272EB11CD1053400F34460 /* crunch.wav */,
+				CE272EB21CD1053400F34460 /* win.wav */,
 				CE3E9BD41CCD06F800288315 /* statedictionary.plist */,
 				CE59286C1CC6EBA400F9FD1B /* AppDelegate.h */,
 				CE59286D1CC6EBA400F9FD1B /* AppDelegate.m */,
@@ -165,8 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE272EB31CD1053400F34460 /* crunch.wav in Resources */,
 				CE5928791CC6EBA400F9FD1B /* LaunchScreen.storyboard in Resources */,
 				CE5928761CC6EBA400F9FD1B /* Assets.xcassets in Resources */,
+				CE272EB41CD1053400F34460 /* win.wav in Resources */,
 				CE3E9BD51CCD06F800288315 /* statedictionary.plist in Resources */,
 				CE5928741CC6EBA400F9FD1B /* Main.storyboard in Resources */,
 			);
