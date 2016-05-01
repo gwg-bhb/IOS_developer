@@ -39,8 +39,50 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:SimpleTableIderfier];
     }
     
+    
+    
+    UIImage *image = [UIImage imageNamed:@"star"];
+    cell.imageView.image = image;
+    UIImage *highlightedImage = [UIImage imageNamed:@"star2"];
+    cell.imageView.highlightedImage = highlightedImage;
+    
     cell.textLabel.text = self.dwarves[indexPath.row];
+    cell.textLabel.font = [UIFont boldSystemFontOfSize:50];
+    
+    if (indexPath.row < 7) {
+        cell.detailTextLabel.text = @"Mr. Disney";
+    }else{
+        cell.detailTextLabel.text = @"Mr. Tolkien";
+    }
     return cell;
 }
 
+- (NSInteger) tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return indexPath.row % 4;
+}
+
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if(indexPath.row == 0){
+        return nil;
+    }else if(indexPath.row%2 == 0 ){
+        return [NSIndexPath indexPathForRow:indexPath.row+1 inSection:indexPath.section];
+    }else{
+        return indexPath;
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSString *rowValue = self.dwarves[indexPath.row];
+    NSString *message = [[NSString alloc] initWithFormat:@"You selected %@", rowValue];
+    
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Row selected!" message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *action = [UIAlertAction actionWithTitle:@"Yes, I Did" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:action];
+    [self presentViewController:alert animated:YES completion:nil];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return indexPath.row == 0 ? 120:70;
+}
 @end
