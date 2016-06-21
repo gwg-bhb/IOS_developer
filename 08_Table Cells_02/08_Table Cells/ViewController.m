@@ -30,7 +30,10 @@ static NSString *CellTableIdentifier = @"CellTableIdentifier";
                        @{@"Name" : @"Mac Mini", @"Color" : @"Silver"},
                        @{@"Name" : @"Mac Pro", @"Color" : @"Black"}];
     
-    [self.tableView registerClass:[NameAndCorolorCellTableViewCell class] forCellReuseIdentifier:CellTableIdentifier];
+//    [self.tableView registerClass:[NameAndCorolorCellTableViewCell class] forCellReuseIdentifier:CellTableIdentifier];
+    
+    UINib *nib = [UINib nibWithNibName:@"NameAndColorCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
 }
 
 - (void)didReceiveMemoryWarning {
