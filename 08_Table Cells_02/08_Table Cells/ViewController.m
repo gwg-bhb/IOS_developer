@@ -26,13 +26,13 @@ static NSString *CellTableIdentifier = @"CellTableIdentifier";
     
     self.computers = @[@{@"Name" : @"Mac BookAir", @"Color" : @"silver"},
                        @{@"Name" : @"Mac BookPro", @"Color" : @"Silver"},
-                       @{@"Name" : @"iMac", @"color" : @"Silver"},
+                       @{@"Name" : @"iMac", @"Color" : @"Silver"},
                        @{@"Name" : @"Mac Mini", @"Color" : @"Silver"},
                        @{@"Name" : @"Mac Pro", @"Color" : @"Black"}];
     
 //    [self.tableView registerClass:[NameAndCorolorCellTableViewCell class] forCellReuseIdentifier:CellTableIdentifier];
     
-    UINib *nib = [UINib nibWithNibName:@"NameAndColorCell" bundle:nil];
+    UINib *nib = [UINib nibWithNibName:@"NameAndCollorCell" bundle:nil];
     [self.tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
 }
 
