@@ -8,8 +8,13 @@
 
 #import "ViewController.h"
 
+static NSString *SectionsTableIdentifier = @"SectionsTableIdentifier";
+
 @interface ViewController ()
 
+@property (copy, nonatomic) NSDictionary *names;
+@property (copy, nonatomic) NSArray *keys;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end
 
 @implementation ViewController
@@ -17,6 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:SectionsTableIdentifier];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"sortednames" ofType:@"plist"];
+    self.names = [NSDictionary dictionaryWithContentsOfFile:path];
+    self.keys = [[self.names allKeys] sortedArrayUsingSelector:@selector(compare:)];
 }
 
 - (void)didReceiveMemoryWarning {

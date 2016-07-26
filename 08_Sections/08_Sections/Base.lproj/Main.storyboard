@@ -20,7 +20,7 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="629-J8-eKl">
                                 <rect key="frame" x="20" y="20" width="560" height="580"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="ulh-hF-RYI"/>
                                 </connections>
@@ -36,6 +36,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="629-J8-eKl" secondAttribute="trailing" id="gbQ-dv-Vbs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="629-J8-eKl" id="so8-MW-Ikp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
