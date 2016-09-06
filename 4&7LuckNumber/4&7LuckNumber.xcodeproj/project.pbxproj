@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE61ECC01D7DC537005B4F8D /* main.cc in Sources */ = {isa = PBXBuildFile; fileRef = CE61ECBF1D7DC537005B4F8D /* main.cc */; };
+		CE61ECC01D7DC537005B4F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE61ECBF1D7DC537005B4F8D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CE61ECBC1D7DC537005B4F8D /* 4&7LuckNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4&7LuckNumber"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE61ECBF1D7DC537005B4F8D /* main.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cc; sourceTree = "<group>"; };
+		CE61ECBF1D7DC537005B4F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		CE61ECBE1D7DC537005B4F8D /* 4&7LuckNumber */ = {
 			isa = PBXGroup;
 			children = (
-				CE61ECBF1D7DC537005B4F8D /* main.cc */,
+				CE61ECBF1D7DC537005B4F8D /* main.m */,
 			);
 			path = "4&7LuckNumber";
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE61ECC01D7DC537005B4F8D /* main.cc in Sources */,
+				CE61ECC01D7DC537005B4F8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +239,7 @@
 				CE61ECC51D7DC537005B4F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
